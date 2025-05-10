@@ -21,4 +21,12 @@ fun main(){
     if(sueldo > 3000){
         println("Debe pagar impuestos")
     }
+
+    /// when
+    val obj = "hello"
+    when(obj){
+        "1" -> println("uno")
+        "Hello" -> println("Dos")
+        else -> println("no hay conincidencia")
+    }
 }
